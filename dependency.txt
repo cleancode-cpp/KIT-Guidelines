@@ -1,0 +1,26 @@
+
+Stern-Architektur
+Hexagon-Architektur
+
+Domain - Abhängigkeitsfrei
+ _
+/|\
+ |
+ |
+IO / Nebenwirkung - Ist Peripherie
+
+
+///
+
+Data -> […Algo…] -> Result
+
+Algo:
++ [Data1, Data2] -> AlgoA -> [Data3]
++ [Data1, Data3] -> AlgoB -> [Data4]
+
+Konvergenz/Divergenz 
+
+
+
+DDD - Domain Driven Design (Unbiquios Language -> Bounded Context / Service)
+BDD - Behaviour Driven Design (Spec -> Ubiquious Languge -> Tests)

@@ -1,0 +1,8 @@
+
+Layer:0
+* Qt
+* STL
+* OpenSSL
+
+Layer:1
+* NetworkLib (OpenSSL)
